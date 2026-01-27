@@ -1,0 +1,34 @@
+CMD LINE CODE FOR REACT
+npm create vite@latest inici-react -- --template react
+
+install create vite -> ys
+
+no
+
+yes
+
+
+-------------------------
+
+npm run dev - to start react.
+
+
+
+do not do this again if already done or itll delete everything you have already done!!!!
+
+--------------------------
+
+
+npm install json-server
+
+json-server --watch ./data/bd.json
+
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCFYztNxelrlZhPlZaeNeqYSdOuRDUkQCo",
+  authDomain: "joc-catala-f5c6a.firebaseapp.com",
+  projectId: "joc-catala-f5c6a",
+  storageBucket: "joc-catala-f5c6a.firebasestorage.app",
+  messagingSenderId: "297591702816",
+  appId: "1:297591702816:web:2d5051830798c3c8dec345"
+};

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REACT Basico</title>
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+  <h1>React Basico</h1>
+
+  <div id="banner"></div>
+
+  <footer>
+    <p>Pie de pagina</p>
+  </footer>
+
+  <script type="text/babel">
+
+    const Banner = () => {
+
+      const titulo = "Bienvenidos a react Basico";
+      const subTitulo = "Esta es una web para aprender React";
+      const web = "www.fcbarcelona.cat";
+      const nombre = "Josh";
+
+      const handleClick = (nombre) => {
+        console.log("Hola " + nombre);
+      };
+
+      return (
+        // Comentario
+        // for -> htmlFor
+        <div className="banner">
+          <h3>{titulo.toUpperCase()}</h3>
+          <p>{subTitulo}</p>
+          <p>La fecha actual és: {new Date().toDateString()}</p>
+          <p>Numero aleatorio: {Math.floor(Math.random() * 100)}</p>
+          <a href={web}>FC Barcelona</a>
+          <button onClick={() => handleClick(nombre)}>Haz Click</button>
+        </div>
+      )
+    }
+
+    ReactDOM.render(<Banner />, document.getElementById('banner'));
+
+  </script>
+</body>
+</html>
