@@ -1,6 +1,4 @@
 node_modules/
-/eslint.config.js
 /package.json
 /package-lock.json
 README.md
-vite.config.js
