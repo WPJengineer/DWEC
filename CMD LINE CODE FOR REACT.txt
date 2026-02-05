@@ -32,3 +32,33 @@ const firebaseConfig = {
   messagingSenderId: "297591702816",
   appId: "1:297591702816:web:2d5051830798c3c8dec345"
 };
+
+npm install -g firebase-tools
+
+firebase login
+
+yes
+
+no
+
+npm run build
+
+firebase init
+
+y
+
+Hosting
+
+Use existing Project
+
+select our Project
+
+dist
+
+yes
+
+n
+
+y
+
+firbase deploy
