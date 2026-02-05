@@ -1,0 +1,7 @@
+-game goes by time and not turns, complet before 2 minutes has transpired.
+-improve design of background
+-add timer and make it always visible
+-improve design of font and button.
+-add lose screen (pop-up) and a screen that shows you win (pop-up) -> both are components we need to créate.
+-database for result with firebase (leaderboard).
+-option for pulling up leaderboard  (separate component).
